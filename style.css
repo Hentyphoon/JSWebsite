@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: transparent;
+    height: 8vh;
+    position: absolute;
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0 1rem; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 1vh;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 5vh;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color:white; 
+}
+.container{
+    position: absolute;
+    width: 50vw; /* Half of the viewport width */
+    height: 100vh; /* Full viewport height */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+}

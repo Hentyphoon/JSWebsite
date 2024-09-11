@@ -35,10 +35,3 @@
 .navbar a:hover {
     background-color:white; 
 }
-.container{
-    position: absolute;
-    width: 50vw; /* Half of the viewport width */
-    height: 100vh; /* Full viewport height */
-    top: 0; /* Align to top */
-    left: 0; /* Align to left */
-}

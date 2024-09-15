@@ -34,9 +34,9 @@
 
 .navbar a:hover {
     background-color:gray; 
-    height: 90%;
 }
 
 .image-container{
     text-align: center;
+    height: 50%;
 }

@@ -1,7 +1,7 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.module.js';;
 
 const scene = new THREE.Scene(); // Base scene
-scene.background = new THREE.Color(0x000000);
+scene.background = new THREE.Color(0xffffff);
 const view = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000); // Camera
 
 const renderer = new THREE.WebGLRenderer();
@@ -9,7 +9,7 @@ renderer.setSize(window.innerWidth, window.innerHeight); // Set renderer size
 document.body.appendChild(renderer.domElement); // Append renderer to HTML
 
 const geo = new THREE.BoxGeometry();
-const material = new THREE.MeshBasicMaterial({ color: 0xffffff }); // Set color to pink using hexadecimal code
+const material = new THREE.MeshBasicMaterial({ color: 0xdedede }); // Set color to pink using hexadecimal code
 const box = new THREE.Mesh(geo, material);
 scene.add(box);
 

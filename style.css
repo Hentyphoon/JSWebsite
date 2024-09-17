@@ -41,4 +41,5 @@
     height: 92vh;
     background-size: cover;
     background-position: center;
+     background-attachment: fixed;
 }

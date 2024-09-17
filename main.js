@@ -13,7 +13,8 @@ const material = new THREE.MeshBasicMaterial({ color: 0xffffff }); // Set color 
 const box = new THREE.Mesh(geo, material);
 scene.add(box);
 
-view.position.z = 5; // Position camera
+view.position.set(5,5,5); // Position camera
+view.lookAt(box.position);
 
 function animate() {
     renderer.render(scene, view); // Render the scene from the perspective of the camera

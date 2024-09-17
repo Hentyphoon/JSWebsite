@@ -16,10 +16,6 @@ scene.add(box);
 view.position.z = 5; // Position camera
 
 function animate() {
-    requestAnimationFrame(animate);
-    box.rotation.x += 0.01; // Rotate the box
-    box.rotation.y += 0.01; // Rotate the box
-
     renderer.render(scene, view); // Render the scene from the perspective of the camera
 }
 

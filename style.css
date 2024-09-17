@@ -38,5 +38,7 @@
 
 .image-container{
     text-align: center;
-    height: 50%;
+    height: 92vh;
+    background-size: cover;
+    background-position: center;
 }

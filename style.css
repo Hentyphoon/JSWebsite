@@ -1,3 +1,8 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+}
 .navbar {
     display: flex;
     justify-content: center; 
@@ -35,14 +40,15 @@
     background-color:gray; 
 }
 
-.image-container{
-    top: 0%;
+.image-container {
+    top: 0;
     position: fixed;
     right: 0;
     bottom: 0;
+    left: 0; /* Make sure it stretches to the left */
     min-width: 100%; 
     min-height: 100%;
-    object-fit: fill;
-    z-index:-1;
-    overfiow: hidden;
+    object-fit: cover; /* Ensure the image covers the container */
+    z-index: -1;
+    overflow: hidden; /* Keep overflow hidden */
 }

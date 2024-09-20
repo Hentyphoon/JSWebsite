@@ -42,5 +42,5 @@
     min-width: 90%; 
     min-height: 90%;
     object-fit: fill;
-    z-index:-100;
+    z-index:-1;
 }

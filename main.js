@@ -34,7 +34,7 @@ const cylinderEdges = new THREE.LineSegments(
     new THREE.EdgesGeometry(cylinder.geometry), 
     new THREE.LineBasicMaterial({ color: 0x000000 }) // Black border
 );
-
+cylinderEdges.position.x = 2
 // Add cylinder and its border to the scene
 scene.add(cylinder);
 scene.add(cylinderEdges);

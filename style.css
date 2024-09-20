@@ -39,8 +39,8 @@
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100vh; 
-    min-height: 100vw;
+    min-width: 90vh; 
+    min-height: 90vw;
     object-fit: fill;
     z-index:-100;
 }

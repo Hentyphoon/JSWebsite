@@ -39,7 +39,7 @@ cylinderEdges.position.x = 2
 scene.add(cylinder);
 scene.add(cylinderEdges);
 
-view.position.set(-5, 5, 5); // Position camera
+view.position.set(-4, 4, 5); // Position camera
 view.lookAt(box.position);
 
 function animate() {

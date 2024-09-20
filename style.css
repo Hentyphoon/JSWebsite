@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
 .navbar {
     display: flex;
     justify-content: center; 
@@ -37,7 +42,6 @@
 
 .image-container{
     text-align: center;
-    height: 50vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

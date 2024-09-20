@@ -41,13 +41,6 @@ scene.add(cylinderEdges);
 
 view.position.set(-4, 4, 5); // Position camera
 view.lookAt(box.position);
-window.addEventListener('resize', () => {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    renderer.setSize(width, height);
-    view.aspect = width / height;
-    view.updateProjectionMatrix();
-});
 function animate() {
     requestAnimationFrame(animate);
     renderer.render(scene, view); // Render the scene from the perspective of the camera

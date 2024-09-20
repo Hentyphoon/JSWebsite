@@ -12,6 +12,8 @@ html, body {
     right: 0;
     bottom: 0; /* Stretch to full viewport */
     z-index: -1; /* Keep the image behind everything */
+    height: 90vh;
+    width: 100vw;
 }
 
 .navbar {
@@ -20,7 +22,7 @@ html, body {
     align-items: center;     
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
     min-height: 8vh;
-    width: 100%;
+    width: 100vw;
     position: relative; /* Position relative for z-index */
     z-index: 1; /* Bring navbar above the image */
 }

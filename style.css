@@ -52,3 +52,25 @@ html, body {
 .navbar a:hover {
     background-color: gray; 
 }
+
+.code-container {
+    float: left;
+    height: 80vh;
+    width: 120vh;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15vh;
+  }
+.code-container p{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    padding: 1vh;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vh;
+}
+

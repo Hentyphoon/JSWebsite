@@ -58,7 +58,7 @@ html, body {
     height: 80vh;
     width: 120vh;
     margin-bottom: 15px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

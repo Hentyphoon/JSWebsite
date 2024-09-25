@@ -58,7 +58,7 @@ html, body {
     height: 80vh;
     width: 120vh;
     margin-bottom: 15px;
-    background-color: black;
+    background-color: gray;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
